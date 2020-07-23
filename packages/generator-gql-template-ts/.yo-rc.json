@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Jonatan Sombié",
+      "authorEmail": "jonatan.sombie@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
