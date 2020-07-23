@@ -1,0 +1,32 @@
+{
+  "name": "@gql/create",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jonatan Sombié <jonatan.sombie@gmail.com>",
+  "homepage": "https://github.com/novopattern/gql-template-ts#readme",
+  "license": "MIT",
+  "main": "lib/gql-create.js",
+  "bin": {
+    "create-gql": "bin/create-gql"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novopattern/gql-template-ts.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "yargs": "^15.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/novopattern/gql-template-ts/issues"
+  }
+}

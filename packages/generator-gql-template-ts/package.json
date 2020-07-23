@@ -87,5 +87,8 @@
     "test": "jest"
   },
   "repository": "stomybexy/generator-gql-template-ts",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
