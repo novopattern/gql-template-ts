@@ -1,4 +1,4 @@
-# generator-gql-template-ts [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-gql-template-ts [![NPM version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url]
 > A template project for graphql api with typescript
 
 ## Installation
