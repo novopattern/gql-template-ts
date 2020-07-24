@@ -26,9 +26,6 @@ jobs:
         run: |
           lerna run test
 
-      - name: Extract version from tag ref
-        run: echo "::set-env name=VERSION::${GITHUB_REF/refs\/tags\/v/}"
-
       - name: Publish
         run: lerna publish from-package --yes
         env:
