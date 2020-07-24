@@ -32,13 +32,18 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      `${this.templatePath()}/**/*`,
+      `${this.templatePath()}/**/!(_)*`,
       this.destinationPath(),
       this.props
     );
     this.fs.copy(
       this.templatePath(`${this.templatePath()}/.*`),
       this.destinationRoot()
+    );
+    this.fs.copy(
+      this.templatePath('_gitignore'),
+      this.destinationPath('.gitignore'),
+      this.props
     );
   }
 
