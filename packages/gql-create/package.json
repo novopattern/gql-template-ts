@@ -1,5 +1,5 @@
 {
-  "name": "@gql/create",
+  "name": "@nvpn-gql/create",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Jonatan Sombié <jonatan.sombie@gmail.com>",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "lib/gql-create.js",
   "bin": {
-    "create-gql": "bin/create-gql"
+    "create-nvpn-gql": "bin/create-gql"
   },
   "directories": {
     "lib": "lib"
