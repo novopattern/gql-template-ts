@@ -30,6 +30,6 @@ jobs:
         run: echo "::set-env name=VERSION::${GITHUB_REF/refs\/tags\/v/}"
 
       - name: Publish
-        run: lerna publish from-package
+        run: lerna publish from-package --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
