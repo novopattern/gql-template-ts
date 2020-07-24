@@ -21,7 +21,7 @@
     "url": "git+https://github.com/novopattern/gql-template-ts.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo 'No meaningfull test yet'"
   },
   "dependencies": {
     "yargs": "^15.4.1"

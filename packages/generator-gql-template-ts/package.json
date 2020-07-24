@@ -84,7 +84,7 @@
   },
   "scripts": {
     "pretest": "eslint .",
-    "test": "jest"
+    "test": "echo 'No meaningfull test yet'"
   },
   "repository": "stomybexy/generator-gql-template-ts",
   "license": "MIT",
